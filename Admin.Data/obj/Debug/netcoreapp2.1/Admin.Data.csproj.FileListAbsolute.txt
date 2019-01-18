@@ -1,0 +1,10 @@
+F:\My\Admin\Admin.Data\bin\Debug\netcoreapp2.1\Admin.Data.deps.json
+F:\My\Admin\Admin.Data\bin\Debug\netcoreapp2.1\Admin.Data.dll
+F:\My\Admin\Admin.Data\bin\Debug\netcoreapp2.1\Admin.Data.pdb
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.csproj.CoreCompileInputs.cache
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.AssemblyInfoInputs.cache
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.AssemblyInfo.cs
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.dll
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.pdb
+F:\My\Admin\Admin.Data\bin\Debug\netcoreapp2.1\Admin.Data.xml
+F:\My\Admin\Admin.Data\obj\Debug\netcoreapp2.1\Admin.Data.csprojAssemblyReference.cache
