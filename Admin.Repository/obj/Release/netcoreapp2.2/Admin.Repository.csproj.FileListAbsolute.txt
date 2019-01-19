@@ -1,0 +1,9 @@
+F:\My\Code\Admin.Repository\bin\Release\netcoreapp2.2\Admin.Repository.deps.json
+F:\My\Code\Admin.Repository\bin\Release\netcoreapp2.2\Admin.Repository.dll
+F:\My\Code\Admin.Repository\bin\Release\netcoreapp2.2\Admin.Repository.pdb
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.csprojAssemblyReference.cache
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.csproj.CoreCompileInputs.cache
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.AssemblyInfoInputs.cache
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.AssemblyInfo.cs
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.dll
+F:\My\Code\Admin.Repository\obj\Release\netcoreapp2.2\Admin.Repository.pdb

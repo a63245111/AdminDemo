@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Admin.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Admin.Api.AuthHelper.JwtHelper">
+            <summary>
+            Jwt帮助类
+            </summary>
+        </member>
+        <member name="P:Admin.Api.AuthHelper.JwtHelper.SecretKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Admin.Api.AuthHelper.JwtHelper.IssueJWT(Admin.Api.AuthHelper.TokenModelJWT)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.AuthHelper.JwtHelper.SerializeJWT(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.AuthHelper.JwtTokenAuth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Admin.Api.AuthHelper.JwtTokenAuth._next">
+            <summary>
+            声名
+            </summary>
+        </member>
+        <member name="M:Admin.Api.AuthHelper.JwtTokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            构造器
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:Admin.Api.AuthHelper.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.AuthHelper.TokenModelJWT">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Admin.Api.AuthHelper.TokenModelJWT.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Admin.Api.AuthHelper.TokenModelJWT.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Admin.Api.AuthHelper.TokenModelJWT.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="T:Admin.Api.Controllers.AdminUserController">
+            <summary>
+            系统权限
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Controllers.AdminUserController.Get(System.Int32)">
+            <summary>
+            测试
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Controllers.LoginController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Controllers.LoginController.GetJWTStr(System.Int64,System.String)">
+            <summary>
+            获取JWT的token信息
+            </summary>
+            <param name="id">id</param>
+            <param name="sub">角色</param>
+            <returns></returns>
+        </member>
+        <member name="T:Admin.Api.Startup">
+            <summary>
+            初始配置
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Admin.Api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Admin.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

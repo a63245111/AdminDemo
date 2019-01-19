@@ -17,3 +17,4 @@ F:\My\Code\Admin.Data\obj\Debug\netcoreapp2.2\Admin.Data.AssemblyInfoInputs.cach
 F:\My\Code\Admin.Data\obj\Debug\netcoreapp2.2\Admin.Data.AssemblyInfo.cs
 F:\My\Code\Admin.Data\obj\Debug\netcoreapp2.2\Admin.Data.dll
 F:\My\Code\Admin.Data\obj\Debug\netcoreapp2.2\Admin.Data.pdb
+F:\My\Code\Admin.Data\obj\Debug\netcoreapp2.2\Admin.Data.csprojAssemblyReference.cache
