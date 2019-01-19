@@ -6,3 +6,11 @@ F:\My\Admin\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.AssemblyInfo.cs
 F:\My\Admin\Admin.Common\bin\Debug\netcoreapp2.2\Admin.Common.pdb
 F:\My\Admin\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.dll
 F:\My\Admin\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.pdb
+F:\My\Code\Admin.Common\bin\Debug\netcoreapp2.2\Admin.Common.deps.json
+F:\My\Code\Admin.Common\bin\Debug\netcoreapp2.2\Admin.Common.dll
+F:\My\Code\Admin.Common\bin\Debug\netcoreapp2.2\Admin.Common.pdb
+F:\My\Code\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.csproj.CoreCompileInputs.cache
+F:\My\Code\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.AssemblyInfoInputs.cache
+F:\My\Code\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.AssemblyInfo.cs
+F:\My\Code\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.dll
+F:\My\Code\Admin.Common\obj\Debug\netcoreapp2.2\Admin.Common.pdb

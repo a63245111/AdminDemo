@@ -1013,11 +1013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My\\Admin\\Admin.Common\\Admin.Common.csproj",
+      "projectUniqueName": "F:\\My\\Code\\Admin.Common\\Admin.Common.csproj",
       "projectName": "Admin.Common",
-      "projectPath": "F:\\My\\Admin\\Admin.Common\\Admin.Common.csproj",
+      "projectPath": "F:\\My\\Code\\Admin.Common\\Admin.Common.csproj",
       "packagesPath": "C:\\Users\\ACS\\.nuget\\packages\\",
-      "outputPath": "F:\\My\\Admin\\Admin.Common\\obj\\",
+      "outputPath": "F:\\My\\Code\\Admin.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

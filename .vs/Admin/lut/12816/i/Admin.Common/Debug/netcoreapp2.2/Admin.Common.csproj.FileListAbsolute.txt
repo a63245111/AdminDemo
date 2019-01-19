@@ -1,0 +1,8 @@
+F:\My\Code\.vs\Admin\lut\0\b\Admin.Common\Debug\netcoreapp2.2\Admin.Common.deps.json
+F:\My\Code\.vs\Admin\lut\0\b\Admin.Common\Debug\netcoreapp2.2\Admin.Common.dll
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.csprojAssemblyReference.cache
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.csproj.CoreCompileInputs.cache
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.AssemblyInfoInputs.cache
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.AssemblyInfo.cs
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.csproj.CopyComplete
+F:\My\Code\.vs\Admin\lut\0\i\Admin.Common\Debug\netcoreapp2.2\Admin.Common.dll

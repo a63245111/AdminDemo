@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My\\Admin\\Admin.Services\\Admin.Services.csproj",
+      "projectUniqueName": "F:\\My\\Code\\Admin.Services\\Admin.Services.csproj",
       "projectName": "Admin.Services",
-      "projectPath": "F:\\My\\Admin\\Admin.Services\\Admin.Services.csproj",
+      "projectPath": "F:\\My\\Code\\Admin.Services\\Admin.Services.csproj",
       "packagesPath": "C:\\Users\\ACS\\.nuget\\packages\\",
-      "outputPath": "F:\\My\\Admin\\Admin.Services\\obj\\",
+      "outputPath": "F:\\My\\Code\\Admin.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
