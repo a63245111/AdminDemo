@@ -6,4 +6,3 @@ F:\My\Code\Admin.Repository\obj\Debug\netcoreapp2.2\Admin.Repository.AssemblyInf
 F:\My\Code\Admin.Repository\obj\Debug\netcoreapp2.2\Admin.Repository.AssemblyInfo.cs
 F:\My\Code\Admin.Repository\obj\Debug\netcoreapp2.2\Admin.Repository.dll
 F:\My\Code\Admin.Repository\obj\Debug\netcoreapp2.2\Admin.Repository.pdb
-F:\My\Code\Admin.Repository\obj\Debug\netcoreapp2.2\Admin.Repository.csprojAssemblyReference.cache

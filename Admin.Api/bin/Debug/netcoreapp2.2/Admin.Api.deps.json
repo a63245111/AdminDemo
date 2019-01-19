@@ -316,6 +316,9 @@
         }
       },
       "Admin.Services/1.0.0": {
+        "dependencies": {
+          "Admin.Data": "1.0.0"
+        },
         "runtime": {
           "Admin.Services.dll": {}
         },

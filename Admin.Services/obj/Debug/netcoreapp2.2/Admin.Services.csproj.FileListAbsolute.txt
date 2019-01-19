@@ -7,3 +7,7 @@ F:\My\Code\Admin.Services\obj\Debug\netcoreapp2.2\Admin.Services.AssemblyInfo.cs
 F:\My\Code\Admin.Services\obj\Debug\netcoreapp2.2\Admin.Services.dll
 F:\My\Code\Admin.Services\obj\Debug\netcoreapp2.2\Admin.Services.pdb
 F:\My\Code\Admin.Services\obj\Debug\netcoreapp2.2\Admin.Services.csprojAssemblyReference.cache
+F:\My\Code\Admin.Services\bin\Debug\netcoreapp2.2\Admin.Data.dll
+F:\My\Code\Admin.Services\bin\Debug\netcoreapp2.2\Admin.Data.pdb
+F:\My\Code\Admin.Services\bin\Debug\netcoreapp2.2\Admin.Data.xml
+F:\My\Code\Admin.Services\obj\Debug\netcoreapp2.2\Admin.Services.csproj.CopyComplete

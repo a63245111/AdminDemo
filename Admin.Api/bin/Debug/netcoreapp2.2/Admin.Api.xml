@@ -83,6 +83,43 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:Admin.Api.Controllers.BaseApiController">
+            <summary>
+            api 基类
+            </summary>
+        </member>
+        <member name="M:Admin.Api.Controllers.BaseApiController.ToFailResult(System.String,System.Int32)">
+            <summary>
+            错误返回
+            </summary>
+            <param name="msg">错误消息</param>
+            <param name="errorCode">错误码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.BaseApiController.ToResult(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="msg"></param>
+            <param name="errorCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.BaseApiController.ToSuccessResult(System.String)">
+            <summary>
+            成功返回结果.body为空
+            </summary>
+            <param name="msg">成功提示消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Admin.Api.Controllers.BaseApiController.ToSuccessResult``1(``0,System.String)">
+            <summary>
+            成功返回结果.带body数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="body"></param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
         <member name="T:Admin.Api.Controllers.LoginController">
             <summary>
             登录

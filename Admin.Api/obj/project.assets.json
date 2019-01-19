@@ -4533,6 +4533,9 @@
       "Admin.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Admin.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Admin.Services.dll": {}
         },
