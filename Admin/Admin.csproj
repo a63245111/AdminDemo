@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="%25windir%25\system32\inetsrv\appcmd stop apppool /apppool.name:&quot;Test&quot;&#xD;&#xA;exit 0" />
+    <Exec Command="%25windir%25\system32\inetsrv\appcmd stop apppool /apppool.name:&quot;Manage&quot;&#xD;&#xA;exit 0" />
   </Target>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="%25windir%25\system32\inetsrv\appcmd start apppool /apppool.name:&quot;Test&quot;&#xD;&#xA;exit 0" />
+    <Exec Command="%25windir%25\system32\inetsrv\appcmd start apppool /apppool.name:&quot;Manage&quot;&#xD;&#xA;exit 0" />
   </Target>
 
 

@@ -6,6 +6,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>F:\My\Manage\Manage\Admin\bin\Debug\netcoreapp3.1</_PublishTargetUrl>
+    <_PublishTargetUrl>F:\Manage\Admin\bin\Debug\netcoreapp3.1</_PublishTargetUrl>
   </PropertyGroup>
 </Project>
