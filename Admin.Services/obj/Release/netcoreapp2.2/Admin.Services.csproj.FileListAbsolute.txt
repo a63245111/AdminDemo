@@ -1,8 +1,0 @@
-F:\My\Code\Admin.Services\bin\Release\netcoreapp2.2\Admin.Services.deps.json
-F:\My\Code\Admin.Services\bin\Release\netcoreapp2.2\Admin.Services.dll
-F:\My\Code\Admin.Services\bin\Release\netcoreapp2.2\Admin.Services.pdb
-F:\My\Code\Admin.Services\obj\Release\netcoreapp2.2\Admin.Services.csproj.CoreCompileInputs.cache
-F:\My\Code\Admin.Services\obj\Release\netcoreapp2.2\Admin.Services.AssemblyInfoInputs.cache
-F:\My\Code\Admin.Services\obj\Release\netcoreapp2.2\Admin.Services.AssemblyInfo.cs
-F:\My\Code\Admin.Services\obj\Release\netcoreapp2.2\Admin.Services.dll
-F:\My\Code\Admin.Services\obj\Release\netcoreapp2.2\Admin.Services.pdb
