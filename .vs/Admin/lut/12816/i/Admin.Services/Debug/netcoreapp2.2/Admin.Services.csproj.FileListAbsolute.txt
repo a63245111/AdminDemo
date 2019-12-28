@@ -1,7 +1,0 @@
-F:\My\Code\.vs\Admin\lut\0\b\Admin.Services\Debug\netcoreapp2.2\Admin.Services.deps.json
-F:\My\Code\.vs\Admin\lut\0\b\Admin.Services\Debug\netcoreapp2.2\Admin.Services.dll
-F:\My\Code\.vs\Admin\lut\0\i\Admin.Services\Debug\netcoreapp2.2\Admin.Services.csproj.CoreCompileInputs.cache
-F:\My\Code\.vs\Admin\lut\0\i\Admin.Services\Debug\netcoreapp2.2\Admin.Services.AssemblyInfoInputs.cache
-F:\My\Code\.vs\Admin\lut\0\i\Admin.Services\Debug\netcoreapp2.2\Admin.Services.AssemblyInfo.cs
-F:\My\Code\.vs\Admin\lut\0\i\Admin.Services\Debug\netcoreapp2.2\Admin.Services.csproj.CopyComplete
-F:\My\Code\.vs\Admin\lut\0\i\Admin.Services\Debug\netcoreapp2.2\Admin.Services.dll
