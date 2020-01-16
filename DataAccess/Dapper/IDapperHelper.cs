@@ -10,7 +10,7 @@ namespace DataAccess.Dapper
     public interface IDapperHelper
     {
         Database GetConnection();
-        T Get<T>(string id, DbTransaction tran = null, int? commandTimeout = null) where T : class;
+        T Get<T>(long id, DbTransaction tran = null, int? commandTimeout = null) where T : class;
         IEnumerable<T> GetAll<T>(object predicate = null, IList<ISort> sort = null, DbTransaction tran = null, int? commandTimeout = null, bool buffered = true) where T : class;
         IEnumerable<T> GetPage<T>(object predicate, IList<ISort> sort, int page, int pagesize, DbTransaction tran = null, int? commandTimeout = null, bool buffered = true) where T : class;
         dynamic Insert<T>(T obj, DbTransaction tran = null, int? commandTimeout = null) where T : class;

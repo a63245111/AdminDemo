@@ -119,7 +119,7 @@ namespace DataAccess.Dapper
         /// <param name="tran"></param>
         /// <param name="commandTimeout"></param>
         /// <returns></returns>
-        public T Get<T>(string id, DbTransaction tran = null, int? commandTimeout = null) where T : class
+        public T Get<T>(long id, DbTransaction tran = null, int? commandTimeout = null) where T : class
         {
             return Connection.Get<T>(id, tran, commandTimeout);
         }
