@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Admin.Models;
+using Service.Interface;
 
 namespace Admin.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private IUserService _Service;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUserService Service)
         {
             _logger = logger;
+            _Service = Service;
         }
 
         public IActionResult Index()
@@ -25,6 +28,7 @@ namespace Admin.Controllers
 
         public IActionResult Login()
         {
+            _Service.Deatail(1);
             return View();        
         }
 

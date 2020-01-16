@@ -15,9 +15,9 @@ namespace Service
             _dapperHelper = dapperHelper;
         }
 
-        public User Deatail(long Id)
+        public WebUser Deatail(long Id)
         {
-            return _dapperHelper.Get<User>(Id);
+            return _dapperHelper.Get<WebUser>(Id);
         }
     }
 }

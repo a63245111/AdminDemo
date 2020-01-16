@@ -7,7 +7,7 @@ namespace Model
     /// <summary>
     /// 用户信息
     /// </summary>
-    public class User
+    public class WebUser
     {
         /// <summary>
         /// 主键
@@ -25,5 +25,13 @@ namespace Model
         /// 性別
         /// </summary>
         public int Sex { get; set; }
+        /// <summary>
+        /// 手机号码
+        /// </summary>
+        public string Phone { get; set; }
+        /// <summary>
+        /// 邮箱
+        /// </summary>
+        public string Email { get; set; }
     }
 }
