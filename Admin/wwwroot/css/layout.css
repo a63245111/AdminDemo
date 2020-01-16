@@ -7,3 +7,11 @@
     background-position: center center;
     width: 28px;
 }
+
+.bg-gray {
+    background-color:gray;
+}
+
+.btn-outline-red {
+    border-color: #55228f;
+}
