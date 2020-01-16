@@ -13,12 +13,12 @@ namespace Admin.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private IUserService _Service;
+        //public IUserService _Service;
 
-        public HomeController(ILogger<HomeController> logger, IUserService Service)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _Service = Service;
+            //_Service = Service;
         }
 
         public IActionResult Index()
@@ -28,7 +28,7 @@ namespace Admin.Controllers
 
         public IActionResult Login()
         {
-            _Service.Deatail(1);
+            //_Service.Deatail(1);
             return View();        
         }
 
