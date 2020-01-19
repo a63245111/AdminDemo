@@ -12,6 +12,13 @@
     background-color:gray;
 }
 
-.btn-outline-red {
-    border-color: #55228f;
+.btn-outline-write {
+    border-color: #ffffff;
+}
+.slideimg {
+    width:100%;
+    height:75%
+}
+.font-dark {
+    color:#000000
 }
