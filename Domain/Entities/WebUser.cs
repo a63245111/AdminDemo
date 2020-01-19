@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model
+namespace Domain.Entities
 {
-    /// <summary>
-    /// 用户信息
-    /// </summary>
-    public class WebUser
+    public class WebUser : BaseModel
     {
-        /// <summary>
-        /// 主键
-        /// </summary>
-        public long Id { get; set; }
         /// <summary>
         /// 名称
         /// </summary>
@@ -33,9 +26,5 @@ namespace Model
         /// 邮箱
         /// </summary>
         public string Email { get; set; }
-        /// <summary>
-        /// 创建时间
-        /// </summary>
-        public DateTime CreateTime { get; set; }
     }
 }

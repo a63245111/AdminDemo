@@ -4,10 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Autofac;
+using Newtonsoft.Json.Serialization;
+using Microsoft.AspNetCore.Http;
+using DataAccess.Dapper;
+using Autofac.Annotation;
+using Service.Interface;
+using Service;
 
 namespace Admin
 {
@@ -19,11 +25,40 @@ namespace Admin
         }
 
         public IConfiguration Configuration { get; }
+        public ILifetimeScope AutofacContainer { get; private set; }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            //autofac打标签模式 文档：https://github.com/yuzd/Autofac.Annotation
+            builder.RegisterModule(new AutofacAnnotationModule(
+                    this.GetType().Assembly,
+                    typeof(RepositoryBase<>).Assembly,
+                    typeof(HttpContext).Assembly)
+                .SetAllowCircularDependencies(true)
+                .SetDefaultAutofacScopeToInstancePerLifetimeScope());
+
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => o.AddPolicy("Any", r =>
+            {
+                r.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
+
+            services.AddRazorPages().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ContractResolver =
+                    new DefaultContractResolver());
+
             services.AddControllersWithViews();
+
+            services.AddScoped<IUserService, UserService>();
+
+            services.AddHttpContextAccessor();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

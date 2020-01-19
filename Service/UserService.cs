@@ -4,20 +4,16 @@ using Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Service
 {
-    public class UserService : IUserService
+    public class UserService : RepositoryBase<WebUser>, IUserService
     {
-        public DapperHelper _dapperHelper;
-        public UserService(DapperHelper dapperHelper)
+        private static readonly string TableName = "WebUser";
+        public async Task<WebUser> DetailAsync(int Id)
         {
-            _dapperHelper = dapperHelper;
-        }
-
-        public WebUser Deatail(long Id)
-        {
-            return _dapperHelper.Get<WebUser>(Id);
+            return await DetailAsync(Id, TableName);
         }
     }
 }

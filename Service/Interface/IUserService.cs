@@ -1,13 +1,15 @@
-﻿using Model;
+﻿using DataAccess.Dapper.Internal;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Service.Interface
 {
-    public interface IUserService
+    public interface IUserService : IRepositoryBase<WebUser>
     {
-        WebUser Deatail(long Id);
+        Task<WebUser> DetailAsync(int Id);
 
     }
 }

@@ -13,22 +13,22 @@ namespace Admin.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        //public IUserService _Service;
+        public IUserService _Service;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUserService Service)
         {
             _logger = logger;
-            //_Service = Service;
+            _Service = Service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var Model = await _Service.DetailAsync(1);
             return View();
         }
 
         public IActionResult Login()
         {
-            //_Service.Deatail(1);
             return View();        
         }
 
