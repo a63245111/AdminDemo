@@ -5,4 +5,3 @@ F:\Manage\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
 F:\Manage\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
 F:\Manage\Domain\obj\Debug\netstandard2.0\Domain.dll
 F:\Manage\Domain\obj\Debug\netstandard2.0\Domain.pdb
-F:\Manage\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache

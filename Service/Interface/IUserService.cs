@@ -1,5 +1,5 @@
 ﻿using DataAccess.Dapper.Internal;
-using Model;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
