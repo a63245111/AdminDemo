@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hmzh\\.nuget\\packages\\": {},
+    "C:\\Users\\Klay\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Manage\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Code\\Manage\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "F:\\Manage\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\hmzh\\.nuget\\packages\\",
-      "outputPath": "F:\\Manage\\Domain\\obj\\",
+      "projectPath": "D:\\Code\\Manage\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Klay\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\Manage\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hmzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Klay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -203,7 +203,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.74.58:8083/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

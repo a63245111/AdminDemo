@@ -23,12 +23,13 @@ namespace DataAccess.Dapper
             var config = new ConfigurationBuilder().Add(new JsonConfigurationSource { Path = "appsettings.json", ReloadOnChange = true }).Build();
             if (string.IsNullOrEmpty(sqlConnectionString))
             {
-                sqlConnectionString = config.GetSection("Connections:DefaultConnect").Value;
+                sqlConnectionString = config.GetSection("Connections:MyConnect").Value;
             }
             else if (sqlConnectionString.StartsWith("setting:"))
             {
                 sqlConnectionString = config.GetSection(sqlConnectionString.Substring(8)).Value;
             }
+            
             IDbConnection conn = new SqlConnection(sqlConnectionString);
             conn.Open();
             return conn;

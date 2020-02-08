@@ -6,3 +6,11 @@ F:\Manage\Domain\obj\Release\netstandard2.0\Domain.AssemblyInfoInputs.cache
 F:\Manage\Domain\obj\Release\netstandard2.0\Domain.AssemblyInfo.cs
 F:\Manage\Domain\obj\Release\netstandard2.0\Domain.dll
 F:\Manage\Domain\obj\Release\netstandard2.0\Domain.pdb
+D:\Code\Manage\Domain\bin\Release\netstandard2.0\Domain.deps.json
+D:\Code\Manage\Domain\bin\Release\netstandard2.0\Domain.dll
+D:\Code\Manage\Domain\bin\Release\netstandard2.0\Domain.pdb
+D:\Code\Manage\Domain\obj\Release\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\Code\Manage\Domain\obj\Release\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\Code\Manage\Domain\obj\Release\netstandard2.0\Domain.AssemblyInfo.cs
+D:\Code\Manage\Domain\obj\Release\netstandard2.0\Domain.dll
+D:\Code\Manage\Domain\obj\Release\netstandard2.0\Domain.pdb
